@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>QQ群</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.0/build/qrcode.js"></script>
+</head>
+
+<body>
+  <!-- https://qun.qq.com/join.html -->
+  <center>
+    <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5SoFQbS1">
+      <canvas id="qgqr"></canvas>
+    </a>
+    <p>
+    <h2>点击上方二维码加群</h2>
+    </p>
+    <p>
+      <a target="_blank"
+        href="https://qm.qq.com/cgi-bin/qm/qr?k=XbM1TC3P1PXXBQcXpiS3YwoAXpVWG7ju&jump_from=webapi&authKey=TGeoptnyqhpADECeviYCbjoHA5XmvuM02n6XOCw5D3F+mhaBj3iGqsM1fVUnAE8A"><img
+          border="0" src="/img/html/qq-groups.png" alt="博客空间" title="博客空间">
+      </a>
+    </p>
+    <p>199616144</p>
+  </center>
+
+  <script>
+    QRCode.toCanvas(document.getElementById('qgqr'),
+      'https://qm.qq.com/cgi-bin/qm/qr?k=XbM1TC3P1PXXBQcXpiS3YwoAXpVWG7ju&jump_from=webapi&authKey=TGeoptnyqhpADECeviYCbjoHA5XmvuM02n6XOCw5D3F+mhaBj3iGqsM1fVUnAE8A',
+    )
+  </script>
+</body>

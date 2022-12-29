@@ -1,0 +1,45 @@
+{
+  "name": "theme-vdoing-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+    "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "deploy": "bash deploy.sh",
+    "editFm": "node utils/editFrontmatter.js",
+    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
+    "publish": "cd ./vdoing && npm publish && cd .. && yarn updateTheme",
+    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "1.9.5",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.12.8",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-attrs": "^4.1.4",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-multimd-table-ext": "^4.1.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1"
+  }
+}
