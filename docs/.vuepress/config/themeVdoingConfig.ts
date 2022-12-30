@@ -66,7 +66,7 @@ export default <VdoingThemeConfig>{
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
   social: {
-    iconfontCssFile: '/style/font_social.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: 'style/font_social.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: "icon-QQ",

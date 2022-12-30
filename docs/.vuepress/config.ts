@@ -23,7 +23,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   },
   title: glCfg.blogsTitle, //站点标题, 建议修改
   description: glCfg.blogsDesc, //描述, 建议修改
-  dest: "", //输出目录, 默认是 dist,无需修改
+  dest: "", //输出目录, 默认是docs/.vuepress/dist,无需修改
   base: "/blogs/",//部署站点的基础路径，默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   shouldPrefetch: () => false, //是否开启预加载, 建议不开启, 无需修改
 
