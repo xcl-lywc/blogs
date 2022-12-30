@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/blogs/",
   myShortName: "XCL",
   myName: "ChuanLin Xiao",
   myBrief: '没什么要说的~~~~',
@@ -32,7 +33,7 @@ module.exports = {
     "img/bg/3.jpeg",
     "img/bg/4.jpg",
     "img/bg/5.jpg",
-    "img/bg/6.jpg",
+    "/blogs/" + "img/bg/6.jpg",
     "img/bg/7.jpg",
     "img/bg/8.jpg",
     "img/bg/9.jpg",
