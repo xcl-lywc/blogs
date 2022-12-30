@@ -16,7 +16,7 @@ npm run build
 cd $dist_path
 
 # 部署到github
-git init
+# git init
 git add -A
 git commit -m "部署, ${commit_info}"
 git push -f $push_addr HEAD:$push_branch

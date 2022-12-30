@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /img/web.png
+# heroImage: img/web.png
 heroText: vuepress-theme-vdoing-template
 tagline: 快速使用 vuepress-theme-vdoing
 # actionText: 立刻进入 →

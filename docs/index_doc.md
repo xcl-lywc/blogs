@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.png
+heroImage: img/logo.png
 heroText: vuepress-theme-vdoing
 tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
 actionText: 开始使用 →
@@ -46,7 +46,7 @@ postList: none
   赞助商
 </p>
 <p align="center">
-  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="/img/Apifox-2.png" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
+  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="img/Apifox-2.png" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
 </p>
 
 ## 🎖特别用户

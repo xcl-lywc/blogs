@@ -89,8 +89,8 @@ export default <UserPlugins>[
         {
           name: '장가갈 수 있을까',
           artist: '咖啡少年',
-          url: '/bgm/1.mp3',
-          cover: '/bgm/1.jpg'
+          url: 'bgm/1.mp3',
+          cover: 'bgm/1.jpg'
         },
         // 网络文件示例
         {
@@ -132,9 +132,9 @@ export default <UserPlugins>[
   [
     "dynamic-title",
     {
-      showIcon: "/img/favicon.ico",
+      showIcon: "img/favicon.ico",
       showText: "(/≧▽≦/)Hello World！",
-      hideIcon: "/img/favicon.ico",
+      hideIcon: "img/favicon.ico",
       hideText: "(●—●)Welcome to！",
       recoverTime: 2000
     }

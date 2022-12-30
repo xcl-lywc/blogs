@@ -4,7 +4,7 @@ import glCfg from './gloabelConfig'
 // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
 export default <HeadTags>[
   // 网页标签栏图标/站点图标，资源放在public文件夹
-  ['link', { rel: 'icon', href: '/img/favicon.ico' }],
+  ['link', { rel: 'icon', href: 'img/favicon.ico' }],
   // 关键词
   ['meta', { name: 'keywords', content: glCfg.blogsDesc }],
   // 移动栏优化
@@ -19,20 +19,20 @@ export default <HeadTags>[
   ["script", {
     "language": "javascript",
     "type": "text/javascript",
-    "src": "/libs/jquery/3.5.1/jquery.min.js"
+    "src": "libs/jquery/3.5.1/jquery.min.js"
   }],
   // 引入vue2.x
   ["script", {
     "language": "javascript",
     "type": "text/javascript",
-    "src": "/libs/vue/2.7.11/vue.min.js"
+    "src": "libs/vue/2.7.11/vue.min.js"
   }],
 
   // 引入鼠标点击脚本
   ["script", {
     "language": "javascript",
     "type": "text/javascript",
-    "src": "/js/MouseClickEffect.js"
+    "src": "js/MouseClickEffect.js"
   }]
 
   // 百度统计的站长验证（你可以去掉）
